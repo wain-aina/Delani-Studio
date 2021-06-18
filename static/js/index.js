@@ -57,3 +57,21 @@ $(document).ready(function(){
   }).mouseleave(function() {
     $(".work8-overlay").hide();
   });
+  $("form#form1").on('submit',function(event){
+           event.preventDefault();
+           var name = $("input#name").val();
+           var email = $("input#email").val();
+           var message = $("textarea#message").val();
+
+           if ($("input#name").val() && $("input#email").val() && $("input#message").val() ){
+               alert ("Hello " + name + ", Thanks for your comments, we'll get back to you in a jiffy...");
+           }
+           else if($("input#name").val() && $("input#email").val()){
+               alert("Thank you for reaching out to us. If you wish to leave a message please type in on the message section..");
+           }
+          else{
+            alert("Please provide correct name or email")
+          }
+       });
+
+});
