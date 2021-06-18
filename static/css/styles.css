@@ -1,45 +1,47 @@
-
-
-.container-full{
-  background-image: url("static/background/images/h_img.jpg");
+.container-full {
+  background-image: url("..//images/background/h_img.jpg");
   background-position: center;
-  text-align:center;
+  text-align: center;
   height: auto;
   background-size: cover;
-  text-decoration-color: #fff;
+  text-decoration-color: white;
 }
 
-.landing{
-padding-top: 20%;
+.landing {
+  padding-top: 20%;
 }
 
-#mouse{
+#mouse {
   padding-top: 15%;
   padding-bottom: 1%;
 }
-.aboutUs{
-padding-top:5%;
-padding-bottom: 3%;
-text-align: center;
-font-family: 'Yantramanav' ,sans-serif;
-font-size: 16px;
+
+.aboutUs {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
 }
-.landing h1{
+
+.landing h1 {
   font-weight: 600;
   font-size: 45px;
 }
-.services{
-  background-image: url("static/images/background/s_image.jpg");
+
+.services {
+  background-image: url("..//images/background/s_image.jpg");
   color: #fff;
   text-align: center;
   padding-top: 10%;
   padding-bottom: 7%;
 }
 
-#whatWeDo h2{
+#whatWeDo h2 {
   padding-top: 3%;
 }
-.overlay{
+
+.overlay {
   background-color: #000;
   opacity: 0.7;
   position: absolute;
@@ -47,78 +49,88 @@ font-size: 16px;
   bottom: 0;
   width: 90%;
 }
-.work-image{
-  position: relative;
 
+.work-image {
+  position: relative;
 }
-.wonger{
+
+.wonger {
   width: 80%;
   height: 80%;
   border: 2px solid #fff;
   margin-left: 10%;
   margin-top: 10%;
 }
-.wonger h1{
+
+.wonger h1 {
   text-align: center;
   font-size: 25px;
   padding-top: 30%;
-  font-style:oblique;
+  font-style: oblique;
 }
 
-#form{
-  background-image: url("static/images/background/c_image.jpg");
+#form {
+  background-image: url("..//images/background/c_image.jpg");
 }
-.input{
+
+.input {
   display: inline;
-
 }
-#form input{
-  width:35%;
+
+#form input {
+  width: 35%;
   background-color: transparent;
-
 }
-#name{
+
+#name {
   margin-left: 12%;
   color: #fff;
 }
-#email{
-  margin-left:5%;
+
+#email {
+  margin-left: 5%;
   color: #fff;
 }
-#form textarea{
+
+#form textarea {
   background-color: transparent;
   color: #fff;
 }
-#email::placeholder{
+
+#email::placeholder {
   color: #fff;
 }
 
-#name::placeholder{
+#name::placeholder {
   color: #fff;
 }
-textarea::placeholder{
+
+textarea::placeholder {
   color: #fff;
 }
-.icon{
+
+.icon {
   padding-left: 20px;
 }
-#design{
-  display: none;
-}
-#development{
-  display: none;
-}
-#product-mgt{
+
+#design {
   display: none;
 }
 
-.work1-overlay,.work2-overlay,.work3-overlay,.work4-overlay,.work5-overlay,.work6-overlay,.work7-overlay,.work8-overlay {
-    display: none;
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 90%;
+#development {
+  display: none;
+}
 
+#product-mgt {
+  display: none;
+}
+
+.work1-overlay, .work2-overlay, .work3-overlay, .work4-overlay, .work5-overlay, .work6-overlay, .work7-overlay, .work8-overlay {
+  display: none;
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90%;
 }
