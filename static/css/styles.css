@@ -1,14 +1,12 @@
-body{
-  overflow-x: hidden;
-}
+
 
 .container-full{
-  background-image: url("static/images/background/h_img.jpg");
+  background-image: url("static/background/images/h_img.jpg");
   background-position: center;
   text-align:center;
   height: auto;
   background-size: cover;
-  text-decoration-color: white;
+  text-decoration-color: #fff;
 }
 
 .landing{
@@ -32,7 +30,7 @@ font-size: 16px;
 }
 .services{
   background-image: url("static/images/background/s_image.jpg");
-  color: white;
+  color: #fff;
   text-align: center;
   padding-top: 10%;
   padding-bottom: 7%;
@@ -42,7 +40,7 @@ font-size: 16px;
   padding-top: 3%;
 }
 .overlay{
-  background-color: black;
+  background-color: #000;
   opacity: 0.7;
   position: absolute;
   top: 0;
@@ -81,25 +79,25 @@ font-size: 16px;
 }
 #name{
   margin-left: 12%;
-  color :white;
+  color: #fff;
 }
 #email{
   margin-left:5%;
-  color: white;
+  color: #fff;
 }
 #form textarea{
   background-color: transparent;
-  color: white;
+  color: #fff;
 }
 #email::placeholder{
-  color: white;
+  color: #fff;
 }
 
 #name::placeholder{
-  color: white;
+  color: #fff;
 }
 textarea::placeholder{
-  color: white;
+  color: #fff;
 }
 .icon{
   padding-left: 20px;
@@ -112,4 +110,15 @@ textarea::placeholder{
 }
 #product-mgt{
   display: none;
+}
+
+.work1-overlay,.work2-overlay,.work3-overlay,.work4-overlay,.work5-overlay,.work6-overlay,.work7-overlay,.work8-overlay {
+    display: none;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 90%;
+
 }
