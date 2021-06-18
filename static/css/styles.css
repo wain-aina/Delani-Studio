@@ -65,3 +65,51 @@ font-size: 16px;
   font-size: 25px;
   padding-top: 30%;
   font-style:oblique;
+}
+
+#form{
+  background-image: url("static/images/background/c_image.jpg");
+}
+.input{
+  display: inline;
+
+}
+#form input{
+  width:35%;
+  background-color: transparent;
+
+}
+#name{
+  margin-left: 12%;
+  color :white;
+}
+#email{
+  margin-left:5%;
+  color: white;
+}
+#form textarea{
+  background-color: transparent;
+  color: white;
+}
+#email::placeholder{
+  color: white;
+}
+
+#name::placeholder{
+  color: white;
+}
+textarea::placeholder{
+  color: white;
+}
+.icon{
+  padding-left: 20px;
+}
+#design{
+  display: none;
+}
+#development{
+  display: none;
+}
+#product-mgt{
+  display: none;
+}
