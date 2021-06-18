@@ -42,3 +42,18 @@ $(document).ready(function(){
  }).mouseleave(function() {
    $(".work5-overlay").hide();
  });
+ $(".work6").mouseenter(function() {
+    $(".work6-overlay").show();
+  }).mouseleave(function() {
+    $(".work6-overlay").hide();
+  });
+  $(".work7").mouseenter(function() {
+    $(".work7-overlay").show();
+  }).mouseleave(function() {
+    $(".work7-overlay").hide();
+  });
+  $(".work8").mouseenter(function() {
+    $(".work8-overlay").show();
+  }).mouseleave(function() {
+    $(".work8-overlay").hide();
+  });
