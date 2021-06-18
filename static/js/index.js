@@ -67,7 +67,7 @@ $(document).ready(function(){
                alert ("Hello " + name + ", Thanks for your comments, we'll get back to you in a jiffy...");
            }
            else if($("input#name").val() && $("input#email").val()){
-               alert("Thank you for reaching out to us. If you wish to leave a message please type in on the message section..");
+               alert("Thank you for reaching out ot us. If you wish to leave a message please type in on the message section..");
            }
           else{
             alert("Please provide correct name or email")
