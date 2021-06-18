@@ -16,15 +16,15 @@
 ## BDD.
   The webpage allows you to input your name, email and a comment as you begin the journey with us on the development trail. User privacy is guaranteed.
 
-##Technologies used.
+## Technologies used.
   -HTML
   -CSS
   -JAVASCRIPT
   -BOOTSTRAP
   -JQUERY
 
-##Contact information.
+## Contact information.
   Email: jesse.wainaina@student.moringaschool.com
 
-##Link
+## Link
   View [Live](https://wain-aina.github.io/Delani_Studio/)
